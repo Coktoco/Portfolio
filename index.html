@@ -7,33 +7,88 @@
     <link rel="stylesheet" href="">
     <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Major+Mono+Display&family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
     <title>AW Portfolio</title>
 </head>
 <body >
     <div class="gradient-background"></div>
-    <div class="flex-container mx-4">
+    <div class="d-flex col justify-content-center">
+        <div class="row mx-4 col-10 justify-content-center">
 
-        <!-- SPACER -->
-        <div style="height: 390px;"></div>
+            <!-- SPACER -->
+            <div style="height: 390px;"></div>
+            <!-- SPACER -->
 
-        <div class="text-container col-12">
-            <div class="major-mono-display-regular text-center">
-                Albert.Winiarski
-            </div>
+            <section class="text-container col-12" data-aos="fade">
+                <div class="major-mono-display-regular text-center ">
+                    Albert.Winiarski
+                </div>
+            </section>
+
+            <!-- SPACER -->
+            <div style="height: 800px;"></div>
+            <!-- SPACER -->
+
+            <section class="text-container col-12">
+                <div class="mb-5">
+                    <p class="major-mono-display-regular mb-5" href="/test.html"> >About me</p> 
+                    <div data-aos="fade">
+                        <p class="major-mono-display-p py-2">
+                        I'm a software, full stack developer, specialized in back-end department.
+                        </p>
+                        <p class="major-mono-display-p py-2">
+                        I work with multiple programming languages, including:
+                        </p>
+                        <li style="height: 30px;" class="major-mono-display-p">C++</li>
+                        <li style="height: 30px;" class="major-mono-display-p">C</li>
+                        <li style="height: 30px;" class="major-mono-display-p">Python</li>
+                        <li style="height: 30px;" class="major-mono-display-p">Fortran</li>
+                        <li style="height: 30px;" class="major-mono-display-p">PHp</li>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- SPACER -->
+            <div style="height: 700px;"></div>
+            <!-- SPACER -->
+
+            <section class="text-container col-12">
+                <div class="mb-5" data-aos="fade">
+                    <p class="major-mono-display-regular" href="/test.html"> >My projects</p> 
+                </div>
+            </section>
+
+            <!-- SPACER -->
+            <div style="height: 1080px;"></div>
+            <!-- SPACER -->
+
+            <section class="text-container col-12">
+                <div class="mb-5" data-aos="fade">
+                    <p class="major-mono-display-regular" href="/test.html"> >My education</p> 
+                </div>
+            </section>
+
+            <!-- SPACER -->
+            <div style="height: 1080px;"></div>
+            <!-- SPACER -->
+
+            <section class="text-container col-12">
+                <div class="mb-5" data-aos="fade">
+                    <p class="major-mono-display-regular" href="/test.html"> >My contact info</p> 
+                </div>
+            </section>
+
+            <!-- SPACER -->
+            <div style="height: 1080px;"></div>
+            <!-- SPACER -->
+
+            <section class="text-container col-12">
+                <div class="mb-5" data-aos="fade">
+                    <p class="major-mono-display-regular" href="/test.html"> >An empty</p> 
+                </div>
+            </section>
         </div>
-
-        <!-- SPACER -->
-        <div style="height: 1080px;"></div>
-
-        <div class="text-container col-12">
-            <div class="major-mono-display-regular text-center mb-5">
-                >About me 
-            </div>
-        </div>
-
-        <!-- SPACER -->
-        <div style="height: 1080px;"></div>
-
     </div>
     <script>
         // Adjust the gradient rotation based on scroll position
@@ -43,8 +98,8 @@
 
             // Calculate new degree values based on scroll
             const startDegree = 105 + (scrollY * 0.1); // Increase start degree as you scroll
-            const midDegree = 80 + (scrollY * 0.05);  // Adjust the second color's position
-            const endDegree = 360 + (scrollY * 0.05);  // Adjust the final color's position
+            const midDegree = 80 + (scrollY * 0.02);  // Adjust the second color's position
+            const endDegree = 360 + (scrollY * 0.02);  // Adjust the final color's position
 
             // Apply the new gradient with dynamic degrees
             gradientBackground.style.background = `conic-gradient(
@@ -57,5 +112,9 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
