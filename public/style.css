@@ -19,7 +19,7 @@
     font-family: "Major Mono Display", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 2px; /* 3.125% */
     letter-spacing: 27.52px;
     color: rgb(197, 191, 34);
@@ -34,10 +34,35 @@
     color: rgb(151, 147, 21);
   }
 
+  .major-mono-display-t {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 2px; /* 3.125% */
+    letter-spacing: 27.52px;
+    color: rgb(178, 173, 21);
+  }
+
   .text-container {
     mix-blend-mode: difference;
   }
+
+  .box-test {
+    height: 30px;
+    width: 30px;
+  } 
+
+
+
   
   :root {
     overscroll-behavior: none;
+    overflow-x: hidden;
+  }
+
+
+  .panel {
+    width: 1444px;
+    height: 100%;
   }
