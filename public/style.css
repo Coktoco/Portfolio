@@ -110,11 +110,12 @@
     margin-top: 3px;
     /* background-color: rgb(178, 173, 21); */
     background-color: rgb(255, 255, 255);
+  }
+
   :root {
     overscroll-behavior: none;
     overflow-x: hidden;
   }
-
 
   .panel {
     width: 1444px;
