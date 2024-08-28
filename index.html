@@ -24,8 +24,8 @@
             <div style="height: 390px;"></div>
             <!-- SPACER -->
 
-            <section class="text-container col-12" data-aos="fade">
-                <div class="major-mono-display-regular text-center ">
+            <section class="text-color-blend col-12" data-aos="fade">
+                <div class="major-mono-display-regular-title text-center ">
                     Albert.Winiarski
                 </div>
             </section>
@@ -34,22 +34,34 @@
             <div style="height: 800px;"></div>
             <!-- SPACER -->
 
-            <section class="text-container col-12">
-                <div class="mb-5">
-                    <p class="major-mono-display-regular mb-5" href="/test.html"> >About me</p> 
+            <section class="text-color-blend col-12">
+                <div class="col-8">
+                    <p class="major-mono-display-regular mb-3" href="/test.html"> >About me</p> 
                     <div data-aos="fade">
-                        <p class="major-mono-display-p py-2">
-                        I'm a full stack software developer specialized in back-end department.
+                        <p class="major-mono-display-p mb-0">
+                        I am a versatile software developer with a specialization in back-end technologies. 
                         </p>
-                        <p class="major-mono-display-p py-2">
+                        <div class="text-spacer w-25"></div>
+
+                        <p class="major-mono-display-p mb-0">
+                            I mainly work with php and laravel framework.  
+                            </p>
+                        <div class="text-spacer w-25"></div>
+
+                        <p class="major-mono-display-p mb-0">
+                        I also have the skills to work as full-stack developer.  
+                        </p>
+                        <div class="text-spacer w-25"></div>
+
+                        <p class="major-mono-display-p">
                         I work with multiple programming languages, including:
                         </p>
-                        <li style="height: 30px;" class="major-mono-display-p">c++</li>
-                        <li style="height: 30px;" class="major-mono-display-p">c</li>
-                        <li style="height: 30px;" class="major-mono-display-p">java</li>
-                        <li style="height: 30px;" class="major-mono-display-p">python</li>
-                        <li style="height: 30px;" class="major-mono-display-p">fortran</li>
-                        <li style="height: 30px;" class="major-mono-display-p">php</li>
+                        <li class="major-mono-display-p">c++</li>
+                        <li class="major-mono-display-p">c</li>
+                        <li class="major-mono-display-p">java</li>
+                        <li class="major-mono-display-p">python</li> 
+                        <li class="major-mono-display-p">fortran</li>
+                        <li class="major-mono-display-p">php</li>
                         
                     </div>
                 </div>
@@ -59,17 +71,17 @@
             <div style="height: 700px;"></div>
             <!-- SPACER -->
 
-            <section class="text-container col-12">
-                <div class="mb-5" data-aos="fade">
+            <section class="text-color-blend col-12">
+                <div>
                     <p class="major-mono-display-regular" href="/test.html"> >My projects</p> 
                 </div>
 
                 <!-- SPACER -->
                 <div style="height: 1080px; width: 6120px;" class="d-flex panel-containment">
-                    <section class="panel">
+                    <section class="panel text-color-blend">
                         <p class="major-mono-display-t" href="/test.html"> >Matematyczna Linia</p> 
                     </section>
-                    <section class="panel">
+                    <section class="panel text-color-blend">
                         <p class="major-mono-display-t" href="/test.html"> >Portfolio</p> 
                     </section>
                 </div>
@@ -77,9 +89,14 @@
 
             </section>
 
-            <section class="text-container col-12">
-                <div class="mb-5" data-aos="fade">
+            <section class="col-12">
+                <div class="mb-3 text-color-blend">
                     <p class="major-mono-display-regular" href="/test.html"> >My education</p> 
+                    <div data-aos="fade">
+                        <p class="major-mono-display-p py-2">
+                        I'm a full stack software developer specialized in back-end department.
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -87,45 +104,25 @@
             <div style="height: 1080px;"></div>
             <!-- SPACER -->
 
-            <section class="text-container col-12">
-                <div class="mb-5" data-aos="fade">
+            <section class="col-12">
+                <div class="text-color-blend">
                     <p class="major-mono-display-regular" href="/test.html"> >My contact info</p>
                 </div>
-                <!-- <div class="box-test box"> TEST </div>  -->
             </section>
 
             <!-- SPACER -->
             <div style="height: 1080px;"></div>
             <!-- SPACER -->
 
-            <section class="text-container col-12">
-                <div class="mb-5" data-aos="fade">
+            <section class="text-color-blend col-12">
+                <div>
                     <p class="major-mono-display-regular" href="/test.html"> >An empty</p> 
                 </div>
             </section>
         </div>
     </div>
-    <script>
-        // Adjust the gradient rotation based on scroll position
-        window.addEventListener('scroll', function() {
-            const scrollY = window.scrollY;
-            const gradientBackground = document.querySelector('.gradient-background');
-
-            // Calculate new degree values based on scroll
-            const startDegree = 105 + (scrollY * 0.1); // Increase start degree as you scroll
-            const midDegree = 80 + (scrollY * 0.02);  // Adjust the second color's position
-            const endDegree = 360 + (scrollY * 0.02);  // Adjust the final color's position
-
-            // Apply the new gradient with dynamic degrees
-            gradientBackground.style.background = `conic-gradient(
-                from ${startDegree}deg,
-                #101020,
-                #0a0615 ${midDegree}deg,
-                #333080,
-                #f0e8ff ${endDegree}deg
-            )`;
-        });
-    </script>
+    <!-- Source file that contains the script for background gradient animation -->
+    <script src="src/js/bg-gradient.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
