@@ -1,3 +1,13 @@
+  /* ROOT SETTINGS */
+
+  :root {
+    overscroll-behavior: none;
+    overflow-x: hidden;
+  }
+
+
+  /* GRADIENT STYLE */
+  
   .gradient-background {
     top: -25%; 
     left: -25%; 
@@ -15,14 +25,29 @@
     transform: translateY(0); /* Initial position */
   }
 
+  /* FONT STYLE SETTINGS */
+
+  .major-mono-display-regular-title {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    /* line-height: 2px; 3.125% */
+    font-size: 30px;
+    line-height: 2px; /* 3.125% */
+    letter-spacing: 27.52px;
+    color: rgb(197, 191, 34);
+  }
+
   .major-mono-display-regular {
     font-family: "Major Mono Display", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    line-height: 2px; /* 3.125% */
+    /* line-height: 2px; 3.125% */
     letter-spacing: 27.52px;
-    color: rgb(197, 191, 34);
+    /* color: rgb(197, 191, 34); */
+    color: rgb(255, 255, 255);
   }
 
   .major-mono-display-p {
@@ -30,8 +55,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 19px;
-    line-height: 2px; /* 3.125% */
-    color: rgb(151, 147, 21);
+    /* line-height: 2px; 3.125% */
+    /* color: rgb(151, 147, 21); */
+    color: rgb(218, 218, 218);
+
   }
 
   .major-mono-display-t {
@@ -44,7 +71,19 @@
     color: rgb(178, 173, 21);
   }
 
-  .text-container {
+  .major-mono-display-t {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    /* line-height: 2px; 3.125% */
+    letter-spacing: 27.52px;
+    /* color: rgb(178, 173, 21); */
+    color: rgb(180, 180, 180);
+
+  }
+
+  .text-color-blend {
     mix-blend-mode: difference;
   }
 
@@ -56,6 +95,21 @@
 
 
   
+  /* SIDE SCROLLING SETTINGS */
+
+  .panel {
+    width: 1444px;
+    height: 100%;
+  }
+
+  /* TEXT SPACER */
+
+  .text-spacer {
+    height: 1px;
+    margin-bottom: 9px;
+    margin-top: 3px;
+    /* background-color: rgb(178, 173, 21); */
+    background-color: rgb(255, 255, 255);
   :root {
     overscroll-behavior: none;
     overflow-x: hidden;
