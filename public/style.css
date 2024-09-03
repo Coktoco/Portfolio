@@ -57,18 +57,8 @@
     font-size: 19px;
     /* line-height: 2px; 3.125% */
     /* color: rgb(151, 147, 21); */
-    color: rgb(218, 218, 218);
+    color: rgb(245, 245, 245);
 
-  }
-
-  .major-mono-display-t {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-    line-height: 2px; /* 3.125% */
-    letter-spacing: 27.52px;
-    color: rgb(178, 173, 21);
   }
 
   .major-mono-display-t {
@@ -79,7 +69,7 @@
     /* line-height: 2px; 3.125% */
     letter-spacing: 27.52px;
     /* color: rgb(178, 173, 21); */
-    color: rgb(180, 180, 180);
+    color: rgb(240, 240, 240);
 
   }
 
@@ -92,9 +82,6 @@
     width: 30px;
   } 
 
-
-
-  
   /* SIDE SCROLLING SETTINGS */
 
   .panel {
@@ -107,7 +94,7 @@
   .text-spacer {
     height: 1px;
     margin-bottom: 9px;
-    margin-top: 3px;
+    margin-top: 2px;
     /* background-color: rgb(178, 173, 21); */
     background-color: rgb(255, 255, 255);
   }
