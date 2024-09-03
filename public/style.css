@@ -50,6 +50,18 @@
     color: rgb(255, 255, 255);
   }
 
+  .major-mono-display-t {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    /* line-height: 2px; 3.125% */
+    letter-spacing: 15.52px;
+    /* color: rgb(178, 173, 21); */
+    color: rgb(240, 240, 240);
+
+  }
+
   .major-mono-display-p {
     font-family: "Major Mono Display", monospace;
     font-weight: 400;
@@ -58,18 +70,6 @@
     /* line-height: 2px; 3.125% */
     /* color: rgb(151, 147, 21); */
     color: rgb(245, 245, 245);
-
-  }
-
-  .major-mono-display-t {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-    /* line-height: 2px; 3.125% */
-    letter-spacing: 27.52px;
-    /* color: rgb(178, 173, 21); */
-    color: rgb(240, 240, 240);
 
   }
 
@@ -85,8 +85,9 @@
   /* SIDE SCROLLING SETTINGS */
 
   .panel {
-    width: 1444px;
+    /* width: 1444px; */
     height: 100%;
+    min-width: 90vw;
   }
 
   /* TEXT SPACER */
@@ -102,9 +103,4 @@
   :root {
     overscroll-behavior: none;
     overflow-x: hidden;
-  }
-
-  .panel {
-    width: 1444px;
-    height: 100%;
   }

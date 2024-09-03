@@ -1,0 +1,24 @@
+{
+    "about": {
+      "title": ">About Me",
+      "over1": "I am a versatile developer working with multiple programming languages such as java, c, c++, python, and php.",
+      "over2": "Currently, I focus on back-end development using Laravel.",
+      "over3": "Additionally, I have the skills to work as a full-stack developer.",
+      "over4": "I am passionate about new technologies and try to incorporate them into my daily work."
+    },
+    "my-project": {
+      "over1": ">My projects"
+    },
+    "project1": {
+      "over1": ">Matematyczna Linia | Laravel"
+    },
+    "project2": {
+      "over1": ">Github analysis | Python"
+    },
+    "project3": {
+      "over1": ">Portfolio"
+    },
+    "my-education": {
+      "over1": ">My education"
+    }
+}

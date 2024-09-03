@@ -1,4 +1,3 @@
-// use a script tag or an external JS file
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger)
 
@@ -14,7 +13,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             pin: true,
             scrub: 1,
             snap: 1 / (sections.length - 1),
-            end: () => "+=" + document.querySelector(".panel-containment").offsetWidth
+            end: () => "+=1" + document.querySelector(".panel-containment").offsetWidth
         }
     })
 
