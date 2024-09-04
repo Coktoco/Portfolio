@@ -1,0 +1,24 @@
+{
+    "about": {
+      "title": ">o mnie",
+      "over1": "Mam na imię Albert i jestem programistą pracującym z wieloma językami programowania, takimi jak: java, c, c++, python czy php.",
+      "over2": "Aktualnie specjalizuje się w web-dev'ie, dokładniej na back-end'zie. Wykorzystuje do tego php oraz framework Laravel.",
+      "over3": "Dodatkowo posiadam umiejętności, aby pracować jako full-stack.",
+      "over4": "Pasjonuję się nowymi technologiami i dążę do wykorzystywania ich w mojej codziennej pracy."
+    },
+    "my-project": {
+      "over1": ">Moje projekty"
+    },
+    "project1": {
+      "over1": "Matematyczna Linia | Laravel"
+    },
+    "project2": {
+      "over1": "Github analiza | Python"
+    },
+    "project3": {
+      "over1": "Portfolio"
+    },
+    "my-education": {
+      "over1": ">Moja edukacja"
+    }
+}

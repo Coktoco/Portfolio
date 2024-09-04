@@ -5,28 +5,61 @@
     overflow-x: hidden;
   }
 
+/* GRADIENT STYLE */
+.gradient-background {
+  top: -25%; 
+  left: -25%; 
+  width: 150vw; 
+  height: 150vh; 
+  position: fixed;
+  transform: translateY(0);
+  z-index: -1; 
+  transition: background 1s ease; 
+}
 
-  /* GRADIENT STYLE */
-  
-  .gradient-background {
-    top: -25%; 
-    left: -25%; 
-    width: 150vw; 
-    height: 150vh; 
-    background: conic-gradient(
-      from 105deg,
-      #101020,
-      #0a0615 80deg,
-      #333080,
-      #f0e8ff
+/* Stylizacja dla przycisków */
+.color-switcher {
+  position: fixed;
+  bottom: 20px;  
+  left: 20px;    
+  display: flex;
+  gap: 10px;     
+  z-index: 1000; 
+}
 
-    );
-    position: fixed;
-    transform: translateY(0); /* Initial position */
-  }
+.lang-switcher {
+  position: fixed;
+  bottom: 20px;  
+  right: 20px;    
+  display: flex;
+  gap: 10px;    
+  z-index: 1000; 
+
+}
+
+.color-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ccc; 
+}
+
+#color1 {
+  background-color: #101020; 
+}
+
+#color2 {
+  background-color: #000000; 
+}
+
+#color3 {
+  background-color: #ffffff; 
+}
 
   /* FONT STYLE SETTINGS */
-
   .major-mono-display-regular-title {
     font-family: "Major Mono Display", monospace;
     font-weight: 400;
@@ -36,7 +69,8 @@
     font-size: 30px;
     line-height: 2px; /* 3.125% */
     letter-spacing: 27.52px;
-    color: rgb(197, 191, 34);
+    /* color: rgb(197, 191, 34); */
+    color: rgb(255, 255, 255);
   }
 
   .major-mono-display-regular {
@@ -56,7 +90,19 @@
     font-style: normal;
     font-size: 25px;
     /* line-height: 2px; 3.125% */
-    letter-spacing: 15.52px;
+    letter-spacing: 12.52px;
+    /* color: rgb(178, 173, 21); */
+    color: rgb(240, 240, 240);
+
+  }
+
+  .major-mono-display-h4 {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    /* line-height: 2px; 3.125% */
+    letter-spacing: 4.52px;
     /* color: rgb(178, 173, 21); */
     color: rgb(240, 240, 240);
 
@@ -70,7 +116,10 @@
     /* line-height: 2px; 3.125% */
     /* color: rgb(151, 147, 21); */
     color: rgb(245, 245, 245);
+  }
 
+  .bolder {
+    font-weight: 500;
   }
 
   .text-color-blend {
@@ -91,13 +140,17 @@
   }
 
   /* TEXT SPACER */
-
   .text-spacer {
     height: 1px;
     margin-bottom: 16px;
     margin-top: 2px;
-    /* background-color: rgb(178, 173, 21); */
     background-color: rgb(255, 255, 255);
+    width: 10%;  
+    transition: width 0.5s ease; 
+}
+
+  .w-10 {
+    width: 10%;
   }
 
   :root {
