@@ -59,65 +59,47 @@
   background-color: #ffffff; 
 }
 
-  /* FONT STYLE SETTINGS */
-  .major-mono-display-regular-title {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    /* font-size: 30px; */
-    /* line-height: 2px; 3.125% */
-    /* font-size: 30px; */
-    line-height: 2px; /* 3.125% */
-    letter-spacing: 27.52px;
-    /* color: rgb(197, 191, 34); */
-    color: rgb(255, 255, 255);
-  }
+ /* FONT STYLE SETTINGS */
+.major-mono-display-regular-title {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2px; /* Zmień według potrzeb */
+  letter-spacing: clamp(2px, 3vw, 27.52px); /* Dynamicznie dostosowany odstęp między literami */
+  color: rgb(255, 255, 255);
+}
 
-  .major-mono-display-regular {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    /* font-size: 30px; */
-    /* line-height: 2px; 3.125% */
-    letter-spacing: 27.52px;
-    /* color: rgb(197, 191, 34); */
-    color: rgb(255, 255, 255);
-  }
+.major-mono-display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: clamp(2px, 2.5vw, 27.52px); /* Dynamicznie dostosowany odstęp między literami */
+  color: rgb(255, 255, 255);
+}
 
-  .major-mono-display-t {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    /* font-size: 25px; */
-    /* line-height: 2px; 3.125% */
-    letter-spacing: 12.52px;
-    /* color: rgb(178, 173, 21); */
-    color: rgb(240, 240, 240);
+.major-mono-display-t {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: clamp(1px, 1.5vw, 12.52px); /* Dynamicznie dostosowany odstęp między literami */
+  color: rgb(240, 240, 240);
+}
 
-  }
+.major-mono-display-h4 {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: clamp(1px, 1vw, 4.52px); /* Dynamicznie dostosowany odstęp między literami */
+  color: rgb(240, 240, 240);
+}
 
-  .major-mono-display-h4 {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    /* font-size: 21px; */
-    /* line-height: 2px; 3.125% */
-    letter-spacing: 4.52px;
-    /* color: rgb(178, 173, 21); */
-    color: rgb(240, 240, 240);
-
-  }
-
-  .major-mono-display-p {
-    font-family: "Major Mono Display", monospace;
-    font-weight: 400;
-    font-style: normal;
-    /* font-size: 19px; */
-    /* line-height: 2px; 3.125% */
-    /* color: rgb(151, 147, 21); */
-    color: rgb(245, 245, 245);
-  }
-
+.major-mono-display-p {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: clamp(0.5px, 0.75vw, 3px); /* Dynamicznie dostosowany odstęp między literami */
+  color: rgb(245, 245, 245);
+}
   .bolder {
     font-weight: 500;
   }
