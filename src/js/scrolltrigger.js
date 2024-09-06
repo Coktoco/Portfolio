@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger)
 
+    ScrollTrigger.config({ 
+        ignoreMobileResize: true
+      });
+    
+    ScrollTrigger.normalizeScroll(true)
+
     let sections = gsap.utils.toArray(".panel");
 
     gsap.to(sections, {

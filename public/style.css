@@ -157,3 +157,8 @@
     overscroll-behavior: none;
     overflow-x: hidden;
   }
+
+  body {
+    overscroll-behavior-x: none; /* Zapobiega przewijaniu przez nadmiar zawartości */
+    overflow-x: hidden; /* Ukrywa pasek przewijania poziomego */
+}
