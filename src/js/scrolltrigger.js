@@ -1,21 +1,13 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger)
 
-    ScrollTrigger.config({ 
-        ignoreMobileResize: true
-      });
-    
-    ScrollTrigger.normalizeScroll(true)
-
-    
-
     let sections = gsap.utils.toArray(".panel");
 
     gsap.to(sections, {
         xPercent: -100 * (sections.length - 1),
         ease: "none",
         scrollTrigger: {
-            start: "top top",
+            start: "-140px",
             // markers: true,
             trigger: ".panel-containment",
             pin: true,
@@ -24,5 +16,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
             end: () => "+=1" + document.querySelector(".panel-containment").offsetWidth
         }
     })
-    ScrollTrigger.refresh();
+
 });
