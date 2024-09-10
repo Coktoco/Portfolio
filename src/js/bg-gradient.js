@@ -2,9 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const gradientBackground = document.querySelector('.gradient-background');
     let currentGradient = getCookie('gradient') || 'gradient1'; // Odczytaj gradient z cookies lub ustaw domyślny
 
+    // Sprawdź, czy ekran jest mobilny
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+
     function setGradient(startDegree, midDegree, endDegree) {
-        // Sprawdź, czy ekran jest mobilny
-        if (window.matchMedia('(max-width: 768px)').matches) {
+        if (isMobile) {
             // Ustaw stałe kolory zamiast gradientów
             if (currentGradient === 'gradient1') {
                 gradientBackground.style.background = '#ffffff'; // Biały
@@ -41,11 +43,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function changeGradient(gradientType) {
         currentGradient = gradientType;
-        setCookie('gradient', gradientType, 7); 
-        updateGradientOnScroll();  
+        setCookie('gradient', gradientType, 7);
+        // Zaktualizuj tło tylko jeśli nie jest to urządzenie mobilne
+        if (!isMobile) {
+            updateGradientOnScroll(); 
+        } else {
+            setGradient(); // Ustaw tło na stały kolor
+        }
     }
 
     function updateGradientOnScroll() {
+        if (isMobile) return; // Nic nie rób na urządzeniach mobilnych
+
         const scrollY = window.scrollY;
         const startDegree = 105 + (scrollY * 0.1);
         const midDegree = 80 + (scrollY * 0.02);
@@ -65,7 +74,10 @@ document.addEventListener('DOMContentLoaded', function () {
         changeGradient('gradient3');
     });
 
-    window.addEventListener('scroll', updateGradientOnScroll);
+    // Dodaj nasłuchiwacz scrollowania tylko na ekranach większych niż mobilne
+    if (!isMobile) {
+        window.addEventListener('scroll', updateGradientOnScroll);
+    }
 
     // Inicjalizacja początkowego gradientu
     updateGradientOnScroll();
