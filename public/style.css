@@ -131,6 +131,10 @@
     transition: width 0.5s ease; 
 }
 
+  /* SEGMENT SPACER  */
+  .segment-spacer {
+    height: 60vh;
+  }
   .w-10 {
     width: 10%;
   }

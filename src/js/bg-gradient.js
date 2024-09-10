@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isMobile) {
             // Ustaw stałe kolory zamiast gradientów
             if (currentGradient === 'gradient1') {
-                gradientBackground.style.background = '#ffffff'; // Biały
+                gradientBackground.style.background = '#333080'; // Granatowy
             } else if (currentGradient === 'gradient2') {
                 gradientBackground.style.background = '#000000'; // Czarny
             } else if (currentGradient === 'gradient3') {
-                gradientBackground.style.background = '#333080'; // Granatowy
+                gradientBackground.style.background = '#ffffff'; // Biały
             }
         } else {
             // Gradient dla większych ekranów
