@@ -89,7 +89,7 @@
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: clamp(1px, 1vw, 4.52px); /* Dynamicznie dostosowany odstęp między literami */
+  letter-spacing: clamp(1px, 1vw, 4.52px); 
   color: rgb(240, 240, 240);
 }
 
@@ -97,9 +97,19 @@
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: clamp(0.5px, 0.75vw, 3px); /* Dynamicznie dostosowany odstęp między literami */
+  letter-spacing: clamp(0.5px, 0.75vw, 3px); 
   color: rgb(245, 245, 245);
 }
+
+.major-mono-display-p-mb5 {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.6%;
+  letter-spacing: clamp(0.5px, 0.75vw, 3px); 
+  color: rgb(245, 245, 245);
+}
+
   .bolder {
     font-weight: 500;
   }

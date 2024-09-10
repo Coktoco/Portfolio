@@ -1,11 +1,41 @@
 {
     "about": {
       "title": ">o mnie",
-      "over1": "Mam na imię Albert i jestem programistą pracującym z wieloma językami programowania, takimi jak: java, c, c++, python czy php.",
-      "over2": "Aktualnie specjalizuje się w web-dev'ie, dokładniej na back-end'zie. Wykorzystuje do tego php oraz framework Laravel.",
-      "over3": "Dodatkowo posiadam umiejętności, aby pracować jako full-stack.",
-      "over4": "Pasjonuję się nowymi technologiami i dążę do wykorzystywania ich w mojej codziennej pracy."
+      "over1": ">opis",
+      "over11": "Mam na imię Albert i jestem programistą pracującym z wieloma językami programowania, takimi jak: java, c, c++, python czy php.",
+      "over12": "Aktualnie specjalizuje się w web-dev'ie, dokładniej na back-end'zie. Wykorzystuje do tego php oraz framework Laravel.",
+      "over13": "Dodatkowo posiadam umiejętności, aby pracować jako full-stack.",
+
+      "over2": "-moja edukacja:",
+      "over21": "uniwersytet jagielloński | 2021-2024:",
+      "over22": "stopień licencjata - elektroniczne przetwarzanie informacji",
+      "over23": "studia dzienne | (ukończone)",
+      "over24": "uniwersytet jagielloński | 2022-2025:",
+      "over25": "studia licencjackie - informatyka stosowana",
+      "over26": "studia dzienne | (nieukończone)",
+      "over27": "jagiellońskie centrum językowe | 2023",
+      "over28": "certyfikat z języka angielskiego - poziom c1",
+
+      "over3": "-moje doświadczenie zawodowe:",
+      "over31": "barman / kelner | 1/4 etatu | 2022 do 2024",
+      "over32": "hotel ascot premium, polska, kraków",
+
+      "over4": "-moje doświadczenie techniczne:",
+
+      "over5": "-moje doświadczenie programistyczne:",
+      "over51": "2-3 lata | języki programistyczne:",
+      "over52": "wiele projektów zamieszczonych na githubie",
+      "over53": "4 lata | Web development:",
+
+
+      "over41": "jestem pasjonatem nowych technologii i staram się włączać je do swojej codziennej pracy.",
+
+      "over6": "-moje pasje:",
+      "over61": "uwielbiam trenować i grać w tenisa. uważam, że sport jest nieodłączną częścią tego, co nas definiuje jako ludzi.",
+      "over62": "interesuję się również nowymi technologiami i wszystkim, co z nimi związane. staram się być na bieżąco z najnowszymi wiadomościami technologicznymi.",
+      "over63": "a, i uwielbiam pracować z włóknem węglowym. to mój ulubiony kompozyt."
     },
+
     "my-project": {
       "over1": ">Moje projekty"
     },
