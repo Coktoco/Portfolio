@@ -24,6 +24,10 @@ async function initializeI18next() {
     document.querySelectorAll('[data-i18n]').forEach(element => {
       element.innerText = i18next.t(element.getAttribute('data-i18n'));
     });
+
+    if (ScrollTrigger) {
+      ScrollTrigger.refresh();
+    }
   }
 
   document.addEventListener('DOMContentLoaded', function () {
