@@ -43,9 +43,9 @@
 
         <!-- Buttons for gradient and theme switches -->
         <div class="color-switcher">
-            <button class="color-btn" id="color1"></button>
-            <button class="color-btn" id="color2"></button>
-            <button class="color-btn" id="color3"></button>
+            <button class="circle-switcher" id="color1"></button>
+            <button class="circle-switcher" id="color2"></button>
+            <button class="circle-switcher" id="color3"></button>
         </div>
         <!-- Buttons for translation -->
         <div class="lang-switcher text-color-blend">
@@ -166,83 +166,84 @@
                 <div class="segment-spacer"></div>
                 <!-- SEGMENT SPACER -->
 
-                <section class="text-color-blend col-12 my-projects-trigger">
+                <section class="text-color-blend col-12">
                     <div>
                         <h2 data-i18n="my-project.over1" class="major-mono-display-regular"> >My projects</h2> 
                     </div>
 
-                    <!-- SPACER -->
-                    <div class="d-flex panel-containment">
-                        <!-- MATEMATYCZNA LINIA -->
-                        <section class="panel text-color-blend">
-                            <div class="col-12 col-md-10">
-                                <div class="row">
-                                    <h3 data-i18n="project1.over1" class="major-mono-display-t w-100"> Matematyczna Linia | Laravel</h3> 
-                                    <div class="col-md-10 col-12" id="accordionProject1">
-                                        <div class="accordion-item">
-                                            <h4 data-i18n="project1.over2"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
-                                                -project overview:
-                                            </h4> 
-                                            <div class="text-spacer w-10" id="expandable-bar"></div>                                        
-                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionProject1">
-                                            <p data-i18n="project1.over3" class="major-mono-display-p ">Matematyczna Linia is my most ambitious project yet. It is a comprehensive web platform designed for managing tutoring sessions and educational materials in mathematics. This project started as a bachelor’s thesis and is now being developed as a fully-fledged business platform, providing users with a modern tool for learning and organizing lessons.</p>                                           
-                                            </div>
-                                        </div>
 
-                                        <div class="accordion-item">
-                                            <h4 data-i18n="project1.over4"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
-                                                -features:
-                                            </h4> 
-                                            <div class="text-spacer w-10"></div>
-                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionProject1">
-                                                <p data-i18n="project1.over5" class="major-mono-display-p ">Simpler sample text</p>
+                    <section class="scroll-section">
+                        <div class="d-flex panel-containment">
+                            <!-- MATEMATYCZNA LINIA -->
+                            <section class="panel text-color-blend">
+                                <div class="col-12 col-md-10">
+                                    <div class="row">
+                                        <h3 data-i18n="project1.over1" class="major-mono-display-t w-100"> Matematyczna Linia | Laravel</h3> 
+                                        <div class="col-12 col-md-10" id="accordionProject1">
+                                            <div class="accordion-item">
+                                                <h4 data-i18n="project1.over2"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
+                                                    -project overview:
+                                                </h4> 
+                                                <div class="text-spacer w-10" id="expandable-bar"></div>                                        
+                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionProject1">
+                                                <p data-i18n="project1.over3" class="major-mono-display-p ">Matematyczna Linia is my most ambitious project yet. It is a comprehensive web platform designed for managing tutoring sessions and educational materials in mathematics. This project started as a bachelor’s thesis and is now being developed as a fully-fledged business platform, providing users with a modern tool for learning and organizing lessons.</p>                                           
+                                                </div>
                                             </div>
-                                        </div>
 
-                                        <div class="accordion-item">
-                                            <h4 data-i18n="project1.over6"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="headingThree">
-                                                -outcomes and future prospects:
-                                            </h4> 
-                                            <div class="text-spacer w-10"></div>
-                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionProject1">
-                                                <p data-i18n="project1.over7" class="major-mono-display-p ">Matematyczna Linia is already operating as an independent service and is evolving with new features in mind, such as user-to-user chat, a more advanced mathematical editor, and automatic scheduling. This project demonstrates my skills in the full cycle of web application development - from concept to deployment.</p>
+                                            <div class="accordion-item">
+                                                <h4 data-i18n="project1.over4"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
+                                                    -features:
+                                                </h4> 
+                                                <div class="text-spacer w-10"></div>
+                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionProject1">
+                                                    <p data-i18n="project1.over5" class="major-mono-display-p ">Simpler sample text</p>
+                                                </div>
                                             </div>
-                                        </div>
 
-                                        <div class="accordion-item">
-                                            <h4 data-i18n="project1.over8"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="headingFour">
-                                                -Technologies and tools:
-                                            </h4> 
-                                            <div class="text-spacer w-10"></div>
-                                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionProject1">
-                                                <ul class="list-group">
-                                                    <li class=" major-mono-display-p">framework: laravel (php)</li>
-                                                    <li class="major-mono-display-p ">containerization environment: docker</li>
-                                                    <li data-i18n="project1.over9" class="major-mono-display-p ">database: mariadb, managed via phpmyadmin</li>
-                                                    <li class="major-mono-display-p ">frontend: bootstrap, blade (laravel templates)</li>
-                                                    <li class="major-mono-display-p ">hosting: amazon aws lightsail</li>
-                                                </ul>
+                                            <div class="accordion-item">
+                                                <h4 data-i18n="project1.over6"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="headingThree">
+                                                    -outcomes and future prospects:
+                                                </h4> 
+                                                <div class="text-spacer w-10"></div>
+                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionProject1">
+                                                    <p data-i18n="project1.over7" class="major-mono-display-p ">Matematyczna Linia is already operating as an independent service and is evolving with new features in mind, such as user-to-user chat, a more advanced mathematical editor, and automatic scheduling. This project demonstrates my skills in the full cycle of web application development - from concept to deployment.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h4 data-i18n="project1.over8"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="headingFour">
+                                                    -Technologies and tools:
+                                                </h4> 
+                                                <div class="text-spacer w-10"></div>
+                                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionProject1">
+                                                    <ul class="list-group">
+                                                        <li class=" major-mono-display-p">framework: laravel (php)</li>
+                                                        <li class="major-mono-display-p ">containerization environment: docker</li>
+                                                        <li data-i18n="project1.over9" class="major-mono-display-p ">database: mariadb, managed via phpmyadmin</li>
+                                                        <li class="major-mono-display-p ">frontend: bootstrap, blade (laravel templates)</li>
+                                                        <li class="major-mono-display-p ">hosting: amazon aws lightsail</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
 
-                        <!-- ANALYSIS GITHUB -->
-                        <section class="panel text-color-blend ">
-                            <div class="col-11">
-                                <h3 data-i18n="project2.over1" class="major-mono-display-t"> >Github analysis | Python</h3> 
-                            </div>
-                        </section>
+                            <!-- ANALYSIS GITHUB -->
+                            <section class="panel text-color-blend ">
+                                <div class="col-11">
+                                    <h3 data-i18n="project2.over1" class="major-mono-display-t"> >Github analysis | Python</h3> 
+                                </div>
+                            </section>
 
-                        <section class="panel text-color-blend ">
-                            <div class="col-11">
-                                <h3 data-i18n="project3.over1" class="major-mono-display-t"> >Portfolio</h3> 
-                            </div>
-                        </section>
-                    </div>
-                    <!-- SPACER -->
+                            <section class="panel text-color-blend ">
+                                <div class="col-11">
+                                    <h3 data-i18n="project3.over1" class="major-mono-display-t"> >Portfolio</h3> 
+                                </div>
+                            </section>
+                        </div>
+                    </section>
 
                 </section>
 

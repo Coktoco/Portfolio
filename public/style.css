@@ -34,6 +34,19 @@
   display: flex;
   gap: 10px;    
   z-index: 1000; 
+}
+
+.circle-switcher {
+  background: #456BD9;
+  border: 1px solid #0F1C3F;
+  border-radius: 50%;
+  /* box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125); */
+  height: 3vh;
+  width: 3vh;
+  /* position: fixed;
+  bottom: 20px;  
+  right: 20px;   
+  z-index: 1000;  */
 
 }
 
