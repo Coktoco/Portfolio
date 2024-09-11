@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         scrollTrigger: {
             trigger: ".scroll-section ", 
             start: "top 50vh",
-            markers: true,
+            // markers: true,
             pin: ".panel-containment", 
             scrub: 1, 
             snap: 1 / (sections.length - 1),
