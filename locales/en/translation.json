@@ -2,33 +2,32 @@
     "about": {
       "title": ">About Me",
       "over1": "-overview:",
-      "over11": "I am a versatile developer working with multiple programming languages such as java, c, c++, python, and php.",
-      "over12": "Currently, I focus on web-dev, especially on back-end development using Laravel.",
-      "over13": "Additionally, I have the skills to work as a full-stack developer.",
+      "over11": "I am a versatile software developer. I work with multiple programming languages such as java, c, c++, python and php.",
+      "over12": "currently, I focus on web-development, mostly on back-end using Laravel.",
+      "over13": "additionally, I have the skills to work as a full-stack developer.",
 
       "over2": "-my education: ",
-      "over21": "Jagiellonian University | 2021-2024:",
+      "over21": "jagiellonian university | 2021-2024:",
       "over22": "bachelor’s degree in digital information processing",
       "over23": "full-time degree programme | (finished)",
-      "over24": "Jagiellonian University | 2022-2025:",
+      "over24": "jagiellonian university | 2022-2025:",
       "over25": "pursuing bachelor’s degree in applied computer science",
       "over26": "full-time degree programme | (not-finished)",
-      "over27": "Jagiellonian Language Centre | 2023",
-      "over28": "Certificate in advanced english c1",
+      "over27": "jagiellonian language centre | 2023",
+      "over28": "certificate in advanced english c1",
 
       "over3": "-my work experience:",
       "over31": "bartender / waiter | 1/4 fte | 2022 to 2024",
-      "over32": "hotel ascot premium, Poland, Cracow",
+      "over32": "hotel ascot premium, poland, cracow",
 
       "over4": "-my technical experience:",
+      "over41": "experienced in working with linux and macos (terminals).",
+      "over42": "experienced in working with github, figma, jetbrains suite, affinity photo 2, blender, vsc, vs, docker",
 
       "over5": "-my programming experience:",
       "over51": "2-3 years | programming languages:",
       "over52": "multiple projects posted on github",
       "over53": "4 years | Web development:",
-
-
-      "over41": "I am passionate about new technologies and try to incorporate them into my daily work.",
 
       "over6": "-my passions:",
       "over61": "I love working out and playing tennis. I believe that sport is an essential part of what makes as humans. ",
@@ -58,7 +57,12 @@
     "project3": {
       "over1": "Portfolio"
     },
+
     "my-education": {
       "over1": ">My education"
+    },
+
+    "my-contact-info": {
+      "over1": ">my contact"
     }
 }

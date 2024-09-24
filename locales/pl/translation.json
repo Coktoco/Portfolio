@@ -2,8 +2,8 @@
     "about": {
       "title": ">o mnie",
       "over1": ">opis",
-      "over11": "Mam na imię Albert i jestem programistą pracującym z wieloma językami programowania, takimi jak: java, c, c++, python czy php.",
-      "over12": "Aktualnie specjalizuje się w web-dev'ie, dokładniej na back-end'zie. Wykorzystuje do tego php oraz framework Laravel.",
+      "over11": "Mam na imię Albert i jestem szeroko rozwiniętym programistą pracującym z wieloma językami programowania.",
+      "over12": "Aktualnie specjalizuje się w web-dev'ie, a dokładniej na back-end'ie. Wykorzystuje do tego php oraz framework Laravel.",
       "over13": "Dodatkowo posiadam umiejętności, aby pracować jako full-stack.",
 
       "over2": "-moja edukacja:",
@@ -21,19 +21,18 @@
       "over32": "hotel ascot premium, polska, kraków",
 
       "over4": "-moje doświadczenie techniczne:",
+      "over41": "doświadczony w pracy z linux'em oraz macos'em (w terminalu).",
+      "over42": "doświadczony w pracy z takimi narzędziami jak: github, figma, jetbrains suite, affinity photo 2, blender, vsc, vs, docker",
 
       "over5": "-moje doświadczenie programistyczne:",
       "over51": "2-3 lata | języki programistyczne:",
       "over52": "wiele projektów zamieszczonych na githubie",
       "over53": "4 lata | Web development:",
 
-
-      "over41": "jestem pasjonatem nowych technologii i staram się włączać je do swojej codziennej pracy.",
-
       "over6": "-moje pasje:",
-      "over61": "uwielbiam trenować i grać w tenisa. uważam, że sport jest nieodłączną częścią tego, co nas definiuje jako ludzi.",
+      "over61": "uwielbiam trenować i grać w tenisa. uważam, że sport jest nieodłączną częścią życia każdego człowieka.",
       "over62": "interesuję się również nowymi technologiami i wszystkim, co z nimi związane. staram się być na bieżąco z najnowszymi wiadomościami technologicznymi.",
-      "over63": "a, i uwielbiam pracować z włóknem węglowym. to mój ulubiony kompozyt."
+      "over63": "fascynuje się włóknem węglowym. to mój ulubiony kompozyt."
     },
 
     "my-project": {
@@ -50,5 +49,9 @@
     },
     "my-education": {
       "over1": ">Moja edukacja"
+    },
+
+    "my-contact-info": {
+      "over1": ">mój kontakt "
     }
 }

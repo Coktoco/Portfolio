@@ -5,32 +5,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const accordionElements = [accordion, accordionAbout];
 
-    accordionElements.forEach(accordionElement => {
-        accordionElement.addEventListener('mouseover', function (event) {
-            if (event.target && event.target.tagName === 'H4') {
-                const correspondingBar = event.target.nextElementSibling; 
-                if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
-                    correspondingBar.style.width = '20%'; 
-                }
-                if (ScrollTrigger) {
-                    ScrollTrigger.refresh();
-                  }
+    accordionAbout.addEventListener('mouseover', function (event) {
+        if (event.target && event.target.tagName === 'H4') {
+            const correspondingBar = event.target.nextElementSibling; 
+            if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
+                correspondingBar.style.width = '20%'; 
             }
-        })
+            ScrollTrigger.refresh();
+        }
     });
 
-    accordionElements.forEach(accordionElement => {
-        accordionElement.addEventListener('mouseout', function (event) {
-            if (event.target && event.target.tagName === 'H4') {
-                const correspondingBar = event.target.nextElementSibling; 
-                if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
-                    correspondingBar.style.width = '10%'; 
-                }
-                if (ScrollTrigger) {
-                    ScrollTrigger.refresh();
-                  }
+
+    accordionAbout.addEventListener('mouseout', function (event) {
+        if (event.target && event.target.tagName === 'H4') {
+            const correspondingBar = event.target.nextElementSibling; 
+            if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
+                correspondingBar.style.width = '10%'; 
             }
-        })
+            ScrollTrigger.refresh();
+        }
     });
-    
+
+    accordion.addEventListener('mouseover', function (event) {
+        if (event.target && event.target.tagName === 'H4') {
+            const correspondingBar = event.target.nextElementSibling; 
+            if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
+                correspondingBar.style.width = '20%'; 
+            }
+        }
+    });
+
+    accordion.addEventListener('mouseout', function (event) {
+        if (event.target && event.target.tagName === 'H4') {
+            const correspondingBar = event.target.nextElementSibling; 
+            if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
+                correspondingBar.style.width = '10%'; 
+            }
+        }
+    });
 });

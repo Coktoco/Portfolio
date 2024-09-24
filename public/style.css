@@ -73,11 +73,20 @@
 }
 
  /* FONT STYLE SETTINGS */
+
+.major-mono-display-font {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.6%;
+  color: rgb(255, 255, 255);
+} 
+
 .major-mono-display-regular-title {
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  line-height: 2px; /* Zmień według potrzeb */
+  line-height: 2px; 
   letter-spacing: clamp(2px, 3vw, 27.52px); /* Dynamicznie dostosowany odstęp między literami */
   color: rgb(255, 255, 255);
 }
@@ -86,7 +95,7 @@
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: clamp(2px, 2.5vw, 27.52px); /* Dynamicznie dostosowany odstęp między literami */
+  letter-spacing: clamp(1px, 1.5vw, 18.52px); /* Dynamicznie dostosowany odstęp między literami */
   color: rgb(255, 255, 255);
 }
 
@@ -110,7 +119,7 @@
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: clamp(0.5px, 0.75vw, 3px); 
+  /* letter-spacing: clamp(0.5px, 0.75vw, 3px);  */
   color: rgb(245, 245, 245);
 }
 
@@ -119,7 +128,7 @@
   font-weight: 400;
   font-style: normal;
   margin-bottom: 0.6%;
-  letter-spacing: clamp(0.5px, 0.75vw, 3px); 
+  /* letter-spacing: clamp(0.5px, 0.75vw, 3px);  */
   color: rgb(245, 245, 245);
 }
 
@@ -139,7 +148,7 @@
   /* MEDIA QUERIES RESPONSIBLE FOR CHANGING THE SIZE OF FONT FOR MOBILE SCREENS */
   @media (max-width: 768px) {
     p {
-      font-size: 75%; 
+      font-size: 77%; 
     }
   }
 
