@@ -136,6 +136,32 @@
     width: 30px;
   } 
 
+  /* MEDIA QUERIES RESPONSIBLE FOR CHANGING THE SIZE OF FONT FOR MOBILE SCREENS */
+  @media (max-width: 768px) {
+    p {
+      font-size: 75%; 
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .major-mono-display-h4 {
+      font-size: 110%; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    .major-mono-display-t {
+      font-size: 100%; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    .major-mono-display-regular {
+      font-size: 120%; 
+    }
+  }
+    
   /* SIDE SCROLLING SETTINGS */
 
   .panel {

@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
                     correspondingBar.style.width = '20%'; 
                 }
+                if (ScrollTrigger) {
+                    ScrollTrigger.refresh();
+                  }
             }
         })
     });
@@ -23,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
                     correspondingBar.style.width = '10%'; 
                 }
+                if (ScrollTrigger) {
+                    ScrollTrigger.refresh();
+                  }
             }
         })
     });
