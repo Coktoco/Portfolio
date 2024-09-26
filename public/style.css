@@ -104,7 +104,7 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: clamp(1px, 1.5vw, 12.52px); /* Dynamicznie dostosowany odstęp między literami */
-  color: rgb(240, 240, 240);
+  color: rgb(255, 255, 255);
 }
 
 .major-mono-display-h4 {
@@ -112,7 +112,7 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: clamp(1px, 1vw, 4.52px); 
-  color: rgb(240, 240, 240);
+  color: rgb(255, 255, 255);
 }
 
 .major-mono-display-p {
@@ -120,7 +120,7 @@
   font-weight: 400;
   font-style: normal;
   /* letter-spacing: clamp(0.5px, 0.75vw, 3px);  */
-  color: rgb(245, 245, 245);
+  color: rgb(255, 255, 255);
 }
 
 .major-mono-display-p-mb5 {
@@ -129,7 +129,7 @@
   font-style: normal;
   margin-bottom: 0.6%;
   /* letter-spacing: clamp(0.5px, 0.75vw, 3px);  */
-  color: rgb(245, 245, 245);
+  color: rgb(255, 255, 255);
 }
 
   .bolder {

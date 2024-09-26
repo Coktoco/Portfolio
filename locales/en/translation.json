@@ -12,7 +12,7 @@
       "over23": "full-time degree programme | (finished)",
       "over24": "jagiellonian university | 2022-2025:",
       "over25": "pursuing bachelor’s degree in applied computer science",
-      "over26": "full-time degree programme | (not-finished)",
+      "over26": "full-time degree programme | (in-progress)",
       "over27": "jagiellonian language centre | 2023",
       "over28": "certificate in advanced english c1",
 
@@ -27,12 +27,14 @@
       "over5": "-my programming experience:",
       "over51": "2-3 years | programming languages:",
       "over52": "multiple projects posted on github",
-      "over53": "4 years | Web development:",
+      "over53": "3 years | Web development:",
 
       "over6": "-my passions:",
       "over61": "I love working out and playing tennis. I believe that sport is an essential part of what makes as humans. ",
       "over62": "I also love new technologies and everything about it. I try my best to stay on top of news regarding the newest tech.",
-      "over63": "Oh, and also I love working with carbon fiber. It's my favorite composite"
+      "over63": "Oh, and also I love working with carbon fiber. It's my favorite composite",
+
+      "over7": "-my photo:"
 
     },
 

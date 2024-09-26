@@ -4,7 +4,7 @@
       "over1": ">opis",
       "over11": "Mam na imię Albert i jestem szeroko rozwiniętym programistą pracującym z wieloma językami programowania.",
       "over12": "Aktualnie specjalizuje się w web-dev'ie, a dokładniej na back-end'ie. Wykorzystuje do tego php oraz framework Laravel.",
-      "over13": "Dodatkowo posiadam umiejętności, aby pracować jako full-stack.",
+      "over13": "dodatkowo posiadam umiejętności, aby pracować jako full-stack.",
 
       "over2": "-moja edukacja:",
       "over21": "uniwersytet jagielloński | 2021-2024:",
@@ -12,7 +12,7 @@
       "over23": "studia dzienne | (ukończone)",
       "over24": "uniwersytet jagielloński | 2022-2025:",
       "over25": "studia licencjackie - informatyka stosowana",
-      "over26": "studia dzienne | (nieukończone)",
+      "over26": "studia dzienne | (w trakcie)",
       "over27": "jagiellońskie centrum językowe | 2023",
       "over28": "certyfikat z języka angielskiego - poziom c1",
 
@@ -27,12 +27,15 @@
       "over5": "-moje doświadczenie programistyczne:",
       "over51": "2-3 lata | języki programistyczne:",
       "over52": "wiele projektów zamieszczonych na githubie",
-      "over53": "4 lata | Web development:",
+      "over53": "3 lata | Web development:",
 
       "over6": "-moje pasje:",
       "over61": "uwielbiam trenować i grać w tenisa. uważam, że sport jest nieodłączną częścią życia każdego człowieka.",
       "over62": "interesuję się również nowymi technologiami i wszystkim, co z nimi związane. staram się być na bieżąco z najnowszymi wiadomościami technologicznymi.",
-      "over63": "fascynuje się włóknem węglowym. to mój ulubiony kompozyt."
+      "over63": "fascynuje się włóknem węglowym. to mój ulubiony kompozyt.",
+
+      "over7": "-moje zdjęcie:"
+
     },
 
     "my-project": {
