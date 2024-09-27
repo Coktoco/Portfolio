@@ -5,6 +5,15 @@
     overflow-x: hidden;
   }
 
+  .text-color-blend {
+    mix-blend-mode: difference;
+  }
+
+  .no-blend {
+    z-index: 10;
+    position: relative; /* To upewnia, że z-index działa */
+}
+
 /* GRADIENT STYLE */
 .gradient-background {
   top: -25%; 
@@ -123,6 +132,7 @@
   color: rgb(255, 255, 255);
 }
 
+
 .major-mono-display-p-mb5 {
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
@@ -134,10 +144,6 @@
 
   .bolder {
     font-weight: 500;
-  }
-
-  .text-color-blend {
-    mix-blend-mode: difference;
   }
 
   .box-test {
@@ -168,6 +174,13 @@
   @media (max-width: 768px) {
     .major-mono-display-regular {
       font-size: 120%; 
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .modal-lg {
+      width: 1500px;
     }
   }
     

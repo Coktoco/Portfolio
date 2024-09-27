@@ -73,7 +73,7 @@
                 <section class="col-12">
                     <div class="col-12 col-md-8">
                         <h2 data-i18n="about.title" class="text-color-blend major-mono-display-regular mb-3"> >About me</h2> 
-                        <div class="col-12 col-md-8" id="accordionAboutMe">
+                        <div class="col-12 col-md-10" id="accordionAboutMe">
 
                             <!-- OVERVIEW -->
                             <div class="accordion-item text-color-blend">
@@ -178,7 +178,7 @@
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                         <div class="modal-body">
-                                            <img class="img-fluid " src="/public/photo/DSC_3997.jpg" alt="">
+                                            <img class="img-fluid " src="/public/images/DSC_3997.jpg" alt="">
                                             <div class="card-img-overlay">
                                                 <p type="button" class=" major-mono-display-regular-title ms-5 mt-5" style="font-size: 2rem;" data-dismiss="modal">X</p>
                                             </div>
@@ -195,7 +195,7 @@
                 <div class="segment-spacer"></div>
                 <!-- SEGMENT SPACER -->
 
-                <section class="text-color-blend col-12">
+                <section class="col-12 text-color-blend">
                     <div>
                         <h2 data-i18n="my-project.over1" class="major-mono-display-regular mb-3"> >My projects</h2> 
                     </div>
@@ -203,12 +203,12 @@
                     <section class="scroll-section">
                         <div class="d-flex panel-containment">
                             <!-- MATEMATYCZNA LINIA -->
-                            <section class="panel text-color-blend">
+                            <section class="panel vh-100">
                                 <div class="col-12 col-md-8">
                                     <div class="row">
-                                        <h3 data-i18n="project1.over1" class="major-mono-display-t w-100"> Matematyczna Linia | Laravel</h3> 
-                                        <div class="col-12 col-md-10" id="accordionProject1">
-                                            <div class="accordion-item">
+                                        <h3 data-i18n="project1.over1" class="text-color-blend major-mono-display-t w-100"> Matematyczna Linia | Laravel</h3> 
+                                        <div class="col-12 col-md-10 " id="accordionProject1">
+                                            <div class="accordion-item text-color-blend">
                                                 <h4 data-i18n="project1.over2"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingOne">
                                                     -project overview:
                                                 </h4> 
@@ -218,7 +218,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item">
+                                            <div class="accordion-item text-color-blend">
                                                 <h4 data-i18n="project1.over4"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
                                                     -features:
                                                 </h4> 
@@ -228,7 +228,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item">
+                                            <div class="accordion-item text-color-blend">
                                                 <h4 data-i18n="project1.over6"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="headingThree">
                                                     -outcomes and future prospects:
                                                 </h4> 
@@ -238,25 +238,45 @@
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item">
+                                            <div class="accordion-item text-color-blend">
                                                 <h4 data-i18n="project1.over8"  class="major-mono-display-h4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="headingFour">
-                                                    -Technologies and tools:
+                                                    -technologies and tools:
                                                 </h4> 
                                                 <div class="text-spacer w-10"></div>
                                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionProject1">
                                                     <ul class="list-group">
                                                         <li ><p class=" major-mono-display-p-mb5">framework: laravel (php)</p></li>
                                                         <li ><p class=" major-mono-display-p-mb5">containerization environment: docker</p></li>
-                                                        <li ><p data-i18n="project1.over9" class="major-mono-display-p-mb5 ">database: mariadb, managed via phpmyadmin </p></li>
+                                                        <li ><p data-i18n="project1.over81" class="major-mono-display-p-mb5 ">database: mariadb, managed via phpmyadmin </p></li>
                                                         <li ><p class=" major-mono-display-p-mb5">frontend: bootstrap, blade (laravel templates)</p></li>
                                                         <li ><p class=" major-mono-display-p-mb5">hosting: amazon aws lightsail</p></li>
                                                     </ul>
                                                 </div>
                                             </div>
 
-                                            <div class="accordion-item">
-                                                <h4 ata-i18n="project1.over"  class="major-mono-display-h4">
-                                                    -Link: <a href="https://www.matematycznalinia.pl">Matematycznalinia.pl</a>
+                                            <div class="accordion-item no-blend">
+                                                <h4 data-i18n="project1.over9" class="major-mono-display-h4 text-color-blend mb-3" type="button" data-toggle="modal" data-target="#ImgML">
+                                                    -screenshot:
+                                                </h4>
+                
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="ImgML" data-backdrop="false" tabindex="-1" role="dialog" aria-labelledby="photoModalCenter" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <img class="img-fluid" src="/public/images/Screenshot_ML.png" alt="">
+                                                            <div class="card-img-overlay">
+                                                                <p type="button" class=" major-mono-display-regular-title ms-3 mt-4 text-black" style="font-size: 2rem;" data-dismiss="modal">X</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="accordion-item text-color-blend">
+                                                <h4 class="major-mono-display-h4">
+                                                    -link: <a href="https://www.matematycznalinia.pl" target="_blank">Matematycznalinia.pl</a>
                                                 </h4> 
                                             </div>
                                         </div>

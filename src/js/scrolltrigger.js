@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     });
     
+    
     // Accordion causes the ScrollTrigger to refresh
     $('#accordionAboutMe').on('shown.bs.collapse hidden.bs.collapse', function () {
         ScrollTrigger.refresh(); // Odświeżenie ScrollTrigger po każdej zmianie

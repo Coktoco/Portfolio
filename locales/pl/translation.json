@@ -42,8 +42,19 @@
       "over1": ">Moje projekty"
     },
     "project1": {
-      "over1": "Matematyczna Linia | Laravel"
+      "over1": "matematyczna linia | laravel",
+      "over2": "-opis projektu:",
+      "over3": "matematyczna linia to mój najambitniejszy projekt do tej pory. jest to kompleksowa platforma internetowa, zaprojektowana do zarządzania sesjami korepetycji i materiałami edukacyjnymi z matematyki. projekt ten rozpoczął się jako praca licencjacka, a teraz rozwija się jako pełnoprawna platforma biznesowa, zapewniająca użytkownikom nowoczesne narzędzie do nauki i organizacji lekcji.",
+      "over4": "-funkcje",
+      "over5": "platforma oferuje zaawansowane funkcje, takie jak zarządzanie materiałami edukacyjnymi, dodawanie i przypisywanie zadań uczniom, planowanie oraz modyfikowanie lekcji, tworzenie i dostosowywanie profili użytkowników. użytkownicy mogą przeglądać zasoby edukacyjne, filtrować je według poziomu trudności i tematu oraz współpracować z korepetytorami w intuicyjny i przejrzysty sposób.",
+      "over6": "-wyniki i perspektywy na przyszłość:",
+      "over7": "matematyczna linia działa już jako niezależna usługa i rozwija się z myślą o nowych funkcjach, takich jak czat między użytkownikami, bardziej zaawansowany edytor matematyczny i automatyczne planowanie. projekt ten demonstruje moje umiejętności w pełnym cyklu rozwoju aplikacji internetowej - od koncepcji po wdrożenie.",
+      "over8": "-technologie i narzędzia:",
+      "over81": "baza danych: mariadb, zarządzana za pomocą phpmyadmin",
+      "over9": "-zrzut ekranu:"
+
     },
+    
     "project2": {
       "over1": "Github analiza | Python"
     },
