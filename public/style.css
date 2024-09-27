@@ -178,11 +178,6 @@
   }
 
 
-  @media (min-width: 992px) {
-    .modal-lg {
-      width: 1500px;
-    }
-  }
     
   /* SIDE SCROLLING SETTINGS */
 
@@ -220,16 +215,6 @@
     overflow-x: hidden; /* Ukrywa pasek przewijania poziomego */
 }
 
-.modal {
-  position: fixed !important; /* Spraw, by modal był niezależny od układu strony */
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 9999; /* Ustaw modal na najwyższym poziomie */
-  mix-blend-mode: normal !important; /* Wyłącz blendowanie dla modalu */
-}
-
-.modal img {
-  mix-blend-mode: normal !important; /* Dodatkowe wyłączenie blendowania dla obrazka */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  margin:auto;
 }

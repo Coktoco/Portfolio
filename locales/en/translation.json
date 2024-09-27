@@ -45,13 +45,13 @@
       "over1": "Matematyczna Linia | Laravel",
       "over2": "-project overview:",
       "over3": "Matematyczna Linia is my most ambitious project yet. It is a comprehensive web platform designed for managing tutoring sessions and educational materials in mathematics. This project started as a bachelor’s thesis and is now being developed as a fully-fledged business platform, providing users with a modern tool for learning and organizing lessons.",
-      "over4": "-features",
+      "over4": "-features:",
       "over5": "The platform offers advanced features such as managing educational materials, adding and assigning tasks to students, scheduling lessons, creating and customizing user profiles. Users can browse educational resources, filter them by difficulty level and topic, and collaborate with tutors in an intuitive and transparent way.",
       "over6": "-outcomes and future prospects:",
       "over7": "Matematyczna Linia is already operating as an independent service and is evolving with new features in mind, such as user-to-user chat, a more advanced mathematical editor, and automatic scheduling. This project demonstrates my skills in the full cycle of web application development - from concept to deployment.",
       "over8": "-Technologies and tools:",
       "over81": "database: mariadb, managed via phpmyadmin",
-      "over9": "-screenshot:"
+      "over9": "-screenshots:"
 
     },
     "project2": {
