@@ -219,3 +219,17 @@
     overscroll-behavior-x: none; /* Zapobiega przewijaniu przez nadmiar zawartości */
     overflow-x: hidden; /* Ukrywa pasek przewijania poziomego */
 }
+
+.modal {
+  position: fixed !important; /* Spraw, by modal był niezależny od układu strony */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999; /* Ustaw modal na najwyższym poziomie */
+  mix-blend-mode: normal !important; /* Wyłącz blendowanie dla modalu */
+}
+
+.modal img {
+  mix-blend-mode: normal !important; /* Dodatkowe wyłączenie blendowania dla obrazka */
+}
