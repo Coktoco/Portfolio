@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const accordion = document.getElementById('accordionProject1');
     const accordion2 = document.getElementById('accordionProject2');
     const accordion3 = document.getElementById('accordionProject3');
+    const accordion4 = document.getElementById('accordionProject4');
     const accordionAbout = document.getElementById('accordionAboutMe');
 
     // ACCORDION ABOUT ME SECTION
@@ -78,6 +79,26 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     accordion3.addEventListener('mouseout', function (event) {
+        if (event.target && event.target.tagName === 'H4') {
+            const correspondingBar = event.target.nextElementSibling; 
+            if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
+                correspondingBar.style.width = '10%'; 
+            }
+        }
+    });
+
+    // ACCORDION PROJECT OLD PORTFOLIO
+
+    accordion4.addEventListener('mouseover', function (event) {
+        if (event.target && event.target.tagName === 'H4') {
+            const correspondingBar = event.target.nextElementSibling; 
+            if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {
+                correspondingBar.style.width = '20%'; 
+            }
+        }
+    });
+
+    accordion4.addEventListener('mouseout', function (event) {
         if (event.target && event.target.tagName === 'H4') {
             const correspondingBar = event.target.nextElementSibling; 
             if (correspondingBar && correspondingBar.classList.contains('text-spacer')) {

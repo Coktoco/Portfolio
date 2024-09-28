@@ -106,7 +106,18 @@
     },
 
     "project4": {
-      "over1": "-stare portfolio | html"
+      "over1": "stare portfolio | html",
+
+      "over21": "to była moja pierwsza strona internetowa z portfolio prezentująca umiejętności, doświadczenia i projekty.",
+      "over22": "strona została zaprojektowana tak, aby przedstawić pełny przegląd moich umiejętności, w tym doświadczenia zawodowego, edukacji oraz zainteresowań. skupiła się głównie na moich doświadczeniach związanych z web-dev'em oraz oraz pracą artystyczną.",
+      "over23": "strona internetowa jest dostępna tylko w języku polskim.",
+      "over24": "treść na tej stronie nie była aktualizowana od 3 lat.",
+      
+      "over32": "responsywny design: w pełni zoptymalizowana dla wszystkich urządzeń",
+      "over33": "minimalistyczny styl: czysty i prosty design odzwierciedlający mój styl",
+      "over34": "modale: wykorzystywane do wyświetlania większych obrazów lub dodatkowych informacji.",
+
+      "over41": "ten projekt został wycofany, ponieważ powstała nowa strona z portfolio."
     },
 
     "my-education": {
