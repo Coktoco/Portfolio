@@ -46,6 +46,7 @@
       "over2": "-opis projektu:",
       "over21": "matematyczna linia to mój najambitniejszy projekt do tej pory. jest to kompleksowa platforma internetowa, zaprojektowana do zarządzania sesjami korepetycji i materiałami edukacyjnymi z matematyki.",
       "over22": "projekt ten rozpoczął się jako praca licencjacka, a teraz rozwija się jako pełnoprawna platforma biznesowa, zapewniająca użytkownikom nowoczesne narzędzie do nauki i organizacji lekcji.",
+      "over23": "strona jest dostępna w języku polskim i angielskim.",
 
       "over3": "-funkcje:",
       "over31": "platforma oferuje zaawansowane funkcje, takie jak:",
@@ -57,7 +58,12 @@
       "over37": "przeglądanie zasobów edukacyjnych za pomocą zaawansowanych filtrów",      
 
       "over4": "-wyniki i perspektywy na przyszłość:",
-      "over41": "matematyczna linia działa już jako niezależna usługa i rozwija się z myślą o nowych funkcjach, takich jak czat między użytkownikami, bardziej zaawansowany edytor matematyczny i automatyczne planowanie. projekt ten demonstruje moje umiejętności w pełnym cyklu rozwoju aplikacji internetowej - od koncepcji po wdrożenie.",
+      "over41": "Matematyczna Linia już działa jako niezależna usługa i rozwija się z myślą o nowych funkcjach, takich jak:",
+      "over42": "czat między użytkownikami",
+      "over43": "bardziej zaawansowany edytor tekstu z funkcjami matematycznymi",
+      "over44": "automatyczne planowanie zajęć",
+      "over45": "rozszerzone powiadomienia e-mail",
+      "over46": "Ten projekt pokazuje moje umiejętności w pełnym cyklu tworzenia aplikacji webowej – od koncepcji po wdrożenie.",
 
       "over5": "-technologie i narzędzia:",
       "over51": "baza danych: mariadb, zarządzana za pomocą phpmyadmin",
@@ -71,18 +77,18 @@
       "over2": "-opis projektu:",
       "over21": "aplikacja webowa oparta na Flasku, prezentująca wybrane, interesujące dane i statystyki z GitHuba w przystępny i angażujący sposób.",
   
-      "over3": "-funkcje:",
+      "over3": "-funkcjonalność:",
       "over31": "aplikacja webowa oferuje funkcje takie jak:",
-      "over32": "prezentacja statystyk repozytoriów GitHub w przystępnej formie",
-      "over33": "menu boczne z interaktywnymi kategoriami i podkategoriami",
-      "over34": "analiza danych o commitach, kontrybutorach i statystykach użytkowania",
-      "over35": "wizualizacje trendów popularności repozytoriów (2018-2023)",
-      "over36": "analiza wzrostu gwiazdek, zgłoszonych problemów i forków w repozytoriach free code camp",
-      "over37": "statystyki ogólne – najpopularniejsze repozytoria według liczby gwiazdek i forków",
+      "over32": "statystyki repozytoriów GitHub w przystępnej formie",
+      "over33": "interaktywne menu boczne",
+      "over34": "analiza commitów, kontrybutorów i statystyk użytkowania",
+      "over35": "wizualizacje trendów popularności (2018-2023)",
+      "over36": "analiza wzrostu gwiazdek, zgłoszonych problemów i forków",
+      "over37": "najlepsze repozytoria według gwiazdek i forków",
       "over38": "technologie: flask, python, bootstrap, bokeh",
   
       "over4": "-wyniki i przyszłe perspektywy:",
-      "over41": "Projekt jest uważany za ukończony i nie ma planów dalszego rozwijania tego projektu.",
+      "over41": "projekt został uznany za ukończony i nie ma planów dalszego rozwijania tego projektu.",
   
       "over5": "-technologie i narzędzia:",
   
@@ -90,8 +96,19 @@
     },
 
     "project3": {
-      "over1": "Portfolio"
+      "over21": "bug tracker to narzędzie internetowe zaprojektowane w celu pomocy zespołom w efektywnym zarządzaniu i śledzeniu błędów. oferuje prosty, minimalistyczny interfejs skupiony na użyteczności i doświadczeniu użytkownika.",
+      
+      "over32": "zarządzanie administracyjne: zarządzanie raportami błędów (dodawanie, edytowanie, usuwanie)",
+      "over33": "kategoryzacja: organizowanie błędów w kategorie",
+      "over34": "śledzenie statusu: przypisywanie statusów (naprawione, w trakcie, w kolejce, nienaprawione)",
+      "over35": "dostęp: tylko do odczytu dla użytkowników bez uprawnień administracyjnych",
+      "over36": "paginacja i filtrowanie: 10 na stronę, filtrowanie według kategorii/statusu"
     },
+
+    "project4": {
+      "over1": "-stare portfolio | html"
+    },
+
     "my-education": {
       "over1": ">Moja edukacja"
     },

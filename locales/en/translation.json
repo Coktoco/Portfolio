@@ -47,6 +47,7 @@
       "over2": "-project overview:",
       "over21": "Matematyczna Linia is my most ambitious project yet. It is a comprehensive web platform designed for managing tutoring sessions and educational materials in mathematics.",
       "over22": "This project started as a bachelor’s thesis and is now being developed as a fully-fledged business platform, providing users with a modern tool for learning and organizing lessons.",
+      "over23": "The website is available in polish and english.",
 
       "over3": "-features:",
       "over31": "The platform offers advanced features such as:",
@@ -56,6 +57,7 @@
       "over35": "scheduling and managing lessons",
       "over36": "creating and customizing user profiles",
       "over37": "browsing educational resources by advanced filters",
+      "over38": "full responsiveness for mobile devices",
 
       "over4": "-outcomes and future prospects:",
 
@@ -71,6 +73,7 @@
       "over6": "-screenshots:"
 
     },
+
     "project2": {
       "over1": "Github analysis | python",
 
@@ -79,12 +82,12 @@
 
       "over3": "-features:",
       "over31": "web application offers features such as:",
-      "over32": "presentation of GitHub repository statistics in an accessible format",
-      "over33": "side menu with interactive categories and subcategories",
-      "over34": "analysis of commits, contributors, and usage statistics",
-      "over35": "visualizations of repository popularity trends (2018-2023)",
-      "over36": "analysis of star growth, issues, and forks in free code camp repositories",
-      "over37": "general statistics – top repositories by stars and forks",
+      "over32": "GitHub repo statistics in an accessible format",
+      "over33": "interactive side menu",
+      "over34": "commit, contributor, and usage analysis",
+      "over35": "popularity trends visualizations (2018-2023)",
+      "over36": "star growth, issues, and forks analysis",
+      "over37": "top repos by stars and forks",
       "over38": "technologies: flask, python, bootstrap, bokeh",
 
       "over4": "-outcomes and future prospects:",
@@ -97,11 +100,18 @@
     },
 
     "project3": {
-      "over21": "the bug tracker application is a web-based tool designed to help teams manage and track bugs and errors efficiently. It provides a simple, minimalistic interface focused on usability and user experience."
+      "over21": "the bug tracker application is a web-based tool designed to help teams manage and track bugs and errors efficiently. It provides a simple, minimalistic interface focused on usability and user experience.",
+
+      "over32": "Admin management: manage bug reports (add, edit, delete)",
+      "over33": "categorization: organize bugs into categories",
+      "over34": "status tracking: assign statuses (fixed, wip, in queue, not fixed)",
+      "over35": "user access: read-only for non-admins",
+      "over36": "pagination and filtering: 10 per page, filter by category/status"
+
     },
 
     "project4": {
-      "over1": "Portfolio"
+      "over1": "old portfolio | html"
     },
 
     "my-contact-info": {
