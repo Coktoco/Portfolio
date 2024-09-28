@@ -30,7 +30,7 @@
       "over53": "3 years | Web development:",
 
       "over6": "-my passions:",
-      "over61": "I love working out and playing tennis. I believe that sport is an essential part of what makes as humans. ",
+      "over61": "I love working out, playing tennis, playing video games, 3d modeling(photogrammetry) and photography.",
       "over62": "I also love new technologies and everything about it. I try my best to stay on top of news regarding the newest tech.",
       "over63": "Oh, and also I love working with carbon fiber. It's my favorite composite",
 
@@ -124,6 +124,16 @@
       "over34": "modals: used for displaying larger images or additional information.",
       
       "over41": "this project has been retired as new portfolio website has been created."
+    },
+
+    "project5": {
+      "over1": "3d art | blender",
+
+      "over2": "-projects overview:",
+      "over21": "this section contains several images of my 3d models / art projects i have created in blender or in fusion 360 over the years.",
+
+      "over3": "-images:"
+
     },
 
     "my-contact-info": {

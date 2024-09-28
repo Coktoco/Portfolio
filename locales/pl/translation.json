@@ -30,7 +30,7 @@
       "over53": "3 lata | Web development:",
 
       "over6": "-moje pasje:",
-      "over61": "uwielbiam trenować i grać w tenisa. uważam, że sport jest nieodłączną częścią życia każdego człowieka.",
+      "over61": "uwielbiam trenować, grać w tenisa, grać w gry, modelować 3d (fotogrametria) i fotografować",
       "over62": "interesuję się również nowymi technologiami i wszystkim, co z nimi związane. staram się być na bieżąco z najnowszymi wiadomościami technologicznymi.",
       "over63": "fascynuje się włóknem węglowym. to mój ulubiony kompozyt.",
 
@@ -118,6 +118,16 @@
       "over34": "modale: wykorzystywane do wyświetlania większych obrazów lub dodatkowych informacji.",
 
       "over41": "ten projekt został wycofany, ponieważ powstała nowa strona z portfolio."
+    },
+
+    "project5": {
+      "over1": "sztuka 3d | blender",
+
+      "over2": "-opis projektów:",
+      "over21": "ta sekcja zawiera kilkanaście zdjęć moich modeli 3d oraz projektów 3d, które wykonałem własnoręcznie w programie blender lub fusion 360.",
+
+      "over3": "-zdjęcia:"
+
     },
 
     "my-education": {
