@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             pin: ".panel-containment", 
             scrub: 1, 
             // snap: 1 / (sections.length - 1),
-            end: () => "+=" + 2*document.querySelector(".panel-containment").offsetWidth 
+            end: () => "+=" + 3*document.querySelector(".panel-containment").offsetWidth 
         }
     });
     
