@@ -215,6 +215,9 @@
     overflow-x: hidden; /* Ukrywa pasek przewijania poziomego */
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img{
-  margin:auto;
+.carousel-inner>.item{
+  /*disables white flash*/
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  -o-transition: -o-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
 }

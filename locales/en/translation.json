@@ -43,26 +43,65 @@
     },
     "project1": {
       "over1": "Matematyczna Linia | Laravel",
+
       "over2": "-project overview:",
-      "over3": "Matematyczna Linia is my most ambitious project yet. It is a comprehensive web platform designed for managing tutoring sessions and educational materials in mathematics. This project started as a bachelor’s thesis and is now being developed as a fully-fledged business platform, providing users with a modern tool for learning and organizing lessons.",
-      "over4": "-features:",
-      "over5": "The platform offers advanced features such as managing educational materials, adding and assigning tasks to students, scheduling lessons, creating and customizing user profiles. Users can browse educational resources, filter them by difficulty level and topic, and collaborate with tutors in an intuitive and transparent way.",
-      "over6": "-outcomes and future prospects:",
-      "over7": "Matematyczna Linia is already operating as an independent service and is evolving with new features in mind, such as user-to-user chat, a more advanced mathematical editor, and automatic scheduling. This project demonstrates my skills in the full cycle of web application development - from concept to deployment.",
-      "over8": "-Technologies and tools:",
-      "over81": "database: mariadb, managed via phpmyadmin",
-      "over9": "-screenshots:"
+      "over21": "Matematyczna Linia is my most ambitious project yet. It is a comprehensive web platform designed for managing tutoring sessions and educational materials in mathematics.",
+      "over22": "This project started as a bachelor’s thesis and is now being developed as a fully-fledged business platform, providing users with a modern tool for learning and organizing lessons.",
+
+      "over3": "-features:",
+      "over31": "The platform offers advanced features such as:",
+      "over32": "advertising and browsing tutoring services",
+      "over33": "managing educational materials",
+      "over34": "adding and assigning tasks to students",
+      "over35": "scheduling and managing lessons",
+      "over36": "creating and customizing user profiles",
+      "over37": "browsing educational resources by advanced filters",
+
+      "over4": "-outcomes and future prospects:",
+
+      "over41": "Matematyczna Linia is already operating as an independent service and is evolving with new features in mind, such as:",
+      "over42": "user-to-user chat,",
+      "over43": "more advanced mathematical editor",
+      "over44": "automatic scheduling",
+      "over45": "expanded email notifications",
+      "over46": "This project demonstrates my skills in the full cycle of web application development - from concept to deployment.",
+
+      "over5": "-Technologies and tools:",
+      "over51": "database: mariadb, managed via phpmyadmin",
+      "over6": "-screenshots:"
 
     },
     "project2": {
-      "over1": "Github analysis | Python"
-    },
-    "project3": {
-      "over1": "Portfolio"
+      "over1": "Github analysis | python",
+
+      "over2": "-project overview:",
+      "over21": "A Flask-based web application showcasing selected, interesting data and statistics from GitHub in an accessible and engaging way.",
+
+      "over3": "-features:",
+      "over31": "web application offers features such as:",
+      "over32": "presentation of GitHub repository statistics in an accessible format",
+      "over33": "side menu with interactive categories and subcategories",
+      "over34": "analysis of commits, contributors, and usage statistics",
+      "over35": "visualizations of repository popularity trends (2018-2023)",
+      "over36": "analysis of star growth, issues, and forks in free code camp repositories",
+      "over37": "general statistics – top repositories by stars and forks",
+      "over38": "technologies: flask, python, bootstrap, bokeh",
+
+      "over4": "-outcomes and future prospects:",
+      "over41": "the project is considered to be finished and there are no plans to further expand this project.",
+
+      "over5": "-technologies and tools:",
+
+      "over6": "-screenshots:"
+
     },
 
-    "my-education": {
-      "over1": ">My education"
+    "project3": {
+      "over21": "the bug tracker application is a web-based tool designed to help teams manage and track bugs and errors efficiently. It provides a simple, minimalistic interface focused on usability and user experience."
+    },
+
+    "project4": {
+      "over1": "Portfolio"
     },
 
     "my-contact-info": {
