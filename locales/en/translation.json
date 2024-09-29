@@ -130,9 +130,21 @@
       "over1": "3d art | blender",
 
       "over2": "-projects overview:",
-      "over21": "this section contains several images of my 3d models / art projects i have created in blender or in fusion 360 over the years.",
+      "over21": "this section showcases several images of my 3d models / art projects i have created in blender or in fusion 360 over the years.",
 
       "over3": "-images:"
+    },
+
+    "project6": {
+      "over1": "photography | camera",
+
+      "over2": "-opis projektów:",
+      "over21": "this section showcases several images that I took and that are in some way important to me or have high artistic value.",
+
+      "over3": "-zdjęcia:",
+
+      "over51": "camera: nikon d3000 | 18-55mm + 55-200mm",
+      "over52": "camera: iphone 13 pro max"
 
     },
 

@@ -126,9 +126,22 @@
       "over1": "sztuka 3d | blender",
 
       "over2": "-opis projektów:",
-      "over21": "ta sekcja zawiera kilkanaście zdjęć moich modeli 3d oraz projektów 3d, które wykonałem własnoręcznie w programie blender lub fusion 360.",
+      "over21": "ta sekcja przedstawia kilkanaście zdjęć moich modeli 3d oraz projektów 3d, które wykonałem własnoręcznie w programie blender lub fusion 360.",
 
       "over3": "-zdjęcia:"
+
+    },
+
+    "project6": {
+      "over1": "fotografia | aparat",
+
+      "over2": "-opis projektów:",
+      "over21": "ta sekcja przedstawia kilkanaście zdjęć mojego autorstwa, które mają dla mnie pewne znaczenie lub charakteryzują się wysoką wartością artystyczną.",
+
+      "over3": "-zdjęcia:",
+
+      "over51": "aparat: nikon d3000 | 18-55mm + 55-200mm",
+      "over52": "aparat: iphone 13 pro max"      
 
     },
 
