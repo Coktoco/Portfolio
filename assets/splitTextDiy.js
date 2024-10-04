@@ -37,4 +37,4 @@ function randomAppear(array, numbers, interval) {
     }, interval); 
 }
 
-randomAppear(letters, numbers, 70);
+randomAppear(letters, numbers, 55);
