@@ -142,6 +142,15 @@
   color: rgb(255, 255, 255);
 }
 
+/* FONT OPTIONS */
+
+  /* TITLE ANIMATION */
+  #my_name div,
+  #my_surname div {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+  }
+
   .bolder {
     font-weight: 500;
   }
